@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="290.0" prefWidth="440.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mustafaergan.personelkayit.view.PersonelGoruntule.PersonelGoruntuleController">
+   <children>
+      <TableView layoutY="1.0" prefHeight="288.0" prefWidth="435.0">
+        <columns>
+          <TableColumn prefWidth="148.0" text="TC " />
+          <TableColumn prefWidth="112.0" text="Personel İsmi" />
+          <TableColumn prefWidth="173.0" text="Telefon" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
